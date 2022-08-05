@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    text-align: center;
+   background: #1B244A;
+
+    color: white;
+}
+
+.container {
+    display: flex;
+    width: 500px;
+    height:300px;
+}
+
+.score{
+    
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+}
+
+.button{
+    background: none;
+    color: white;
+   
+}
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}

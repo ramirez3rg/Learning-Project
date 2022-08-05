@@ -1,0 +1,20 @@
+body{
+ align-items: center;
+}
+
+h1{
+    font-family: monospace;
+    font-weight: 800;
+    color: blue;
+}
+
+button{
+    background-color: green;
+ border: 1px solid green;
+ color:white;
+}
+button:hover{
+    background-color: aquamarine;
+    color: green;
+
+}

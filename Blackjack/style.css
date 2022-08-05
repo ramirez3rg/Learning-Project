@@ -1,0 +1,27 @@
+
+
+h1{
+    color: goldenrod;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrsWHPLodisBBbMqrxIxNVkmaaAEZWDHFK_pXxj6WS2U1ze7XOE5AlADaC8arMDjfRMzs&usqp=CAU");
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    
+}
+
+button{
+
+    background: none;
+    color: aliceblue;
+
+}
+
+button:hover{
+
+    cursor: pointer;
+    background: blue;
+}

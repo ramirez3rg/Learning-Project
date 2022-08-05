@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+       
+    </head>
+    <body>
+       
+            <div >
+                <h1>BLACKJACK</h1>
+                <div class="column" >
+                    <h3>HOUSE</h3>
+                    <h2 class="score" id="house-score">0</h2>
+                    <div>
+                        
+                    </div>
+                </div>
+    
+                
+    
+                <div class="column" >
+                    <h3>PLAYER</h3>
+                    <h2 id="player-cards">Cards:</h2>
+                    <h2 class="score" id="guest-score">0</h2>
+                    <p id="status"></p>
+                    <div>
+                        <button id="g-1pt" onclick="draw()" class="button1">draw</button>
+                        <button id="g-2pt" onclick="newCard()" class="button1">New Card</button>
+                       
+                    </div>
+                    <p></p>
+                    <div class="row">
+                    <button id="reset" onclick="reset()" class="button1">New Game</button>
+                </div>
+                </div>
+            </div>
+
+
+
+
+            <script src="main.js"></script>
+    </body>
+</html>
