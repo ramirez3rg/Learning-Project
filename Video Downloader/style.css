@@ -1,0 +1,99 @@
+/* todo list*/
+
+
+* {
+    /* Reset browser's padding and margin */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+  body {
+    background: linear-gradient(red, yellow, rgb(17, 16, 16)) no-repeat  center /cover;
+    height: 100vh;
+}
+  
+  .container {
+    margin: 100px auto;
+    width: 80%;
+    height: 60px
+
+  }
+  
+  /*  */
+  .form {
+    display: flex;
+    flex-direction: row;
+  }
+  .search-field {
+    width: 100%;
+    padding: 10px 35px 10px 15px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+    
+  }
+  
+  .search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -33px;
+    cursor: pointer;
+  }
+  .search-button:hover {
+    background: lightblue;
+    
+  }
+  
+  .search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+  }
+
+  /* styling widget container */
+
+  
+
+  .widget-container{
+
+    width: 100%;
+    height: fit-content;
+    
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .widget-load{
+
+    transition: 1.2s;
+    display: flex;
+    justify-content: center; 
+    height:650PX;
+     background-color: white; 
+    box-shadow: 0 0 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+  }
+
+  .ad-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+
+  }
+
+  .widgetApi{
+
+    width:100%;
+    height: 100%;
+    transition: .8s;
+    border: none;
+    
+  }
