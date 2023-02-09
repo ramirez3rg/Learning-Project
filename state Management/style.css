@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    overflow: hidden;
+}
+#canvas1{
+    
+    top: 0;
+    left: 0;
+}
+    
+
+img {
+    display: none;
+}
+#loading{
+
+    position: absolute;
+    top: 50%;
+    font-size: 80px;
+    width: 100%;
+     text-align: center;
+}
+
